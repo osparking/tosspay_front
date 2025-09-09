@@ -56,6 +56,7 @@ const main = async () => {
        * @docs https://docs.tosspayments.com/sdk/v2/js#widgetsrequestpayment
        */
       console.log("결제하기 버튼 클릭 처리 함수");
+      console.log("window.location.origin: ", window.location.origin);
       await widgets.requestPayment({
         orderId: generateRandomString(),
         orderName: "토스 티셔츠 외 2건",
