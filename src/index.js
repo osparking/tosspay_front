@@ -55,6 +55,7 @@ const main = async () => {
        * 결제 과정에서 악의적으로 결제 금액이 바뀌는 것을 확인하는 용도입니다.
        * @docs https://docs.tosspayments.com/sdk/v2/js#widgetsrequestpayment
        */
+      console.log("결제하기 버튼 클릭 처리 함수");
       await widgets.requestPayment({
         orderId: generateRandomString(),
         orderName: "토스 티셔츠 외 2건",
