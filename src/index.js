@@ -1,5 +1,5 @@
+import { ANONYMOUS, loadTossPayments } from "@tosspayments/tosspayments-sdk";
 import "./style.css";
-import { loadTossPayments, ANONYMOUS } from "@tosspayments/tosspayments-sdk";
 
 const amount = {
   currency: "KRW",
